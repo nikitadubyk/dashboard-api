@@ -1,0 +1,12 @@
+{
+    "name": "dashboard-api",
+    "version": "1.0.0",
+    "description": "API dashboard for training project",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Nikita Dubyk",
+    "license": "ISC"
+}
