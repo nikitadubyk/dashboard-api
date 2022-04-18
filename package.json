@@ -3,14 +3,20 @@
     "version": "1.0.0",
     "description": "API dashboard for training project",
     "main": "index.js",
-    "type": "module",
+    "type": "commonjs",
     "scripts": {
-        "start": "node index.js",
+        "start": "node ./dist/main.js",
+        "build": "tsc",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "Nikita Dubyk",
     "license": "ISC",
     "dependencies": {
-        "express": "^4.17.3"
+        "express": "^4.17.3",
+        "tslog": "^3.3.3"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.13",
+        "typescript": "^4.6.3"
     }
 }
